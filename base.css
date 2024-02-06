@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+
+.logo,
+.logoheader {
+    width: 100px;
+    height: auto;
+    background-color: transparent; 
+}
+.logoheader {
+    float: right;
+    margin: 10px; 
+}
+
+.logo {
+    float: center;
+    margin: 15px;
+}
+
+li {
+    padding: 10px; /* aplica um padding de 10 pixels em todos os lados */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    font-size: 2rem; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    line-height: 150px; 
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: "Segoe UI", sans-serif; 
+    font-size: 16px; /
+    letter-spacing: 1px; 
+}
+
+.footer {
+    background-color: rgb(99, 56, 240); 
+    min-height: 150px; 
+    padding: 20px; 
+    color: white; 
+    text-align: center; 
+}
+
+.footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.footer ul li {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+}
+
+.footer ul li:first-child {
+    font-weight: bold; 
+}
+
+.content table {
+    border-collapse: separate; 
+    border-spacing: 5px; 
+}
